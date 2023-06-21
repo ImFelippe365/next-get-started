@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  color: #8239F2;
+}
+
+.container {
+  background-color: #5FE9C6;
+  padding: 64px;
+}
+
+.content {
+  max-width: 1304px;
+  background: white;
+  margin: auto;
+  padding: 32px;
+}

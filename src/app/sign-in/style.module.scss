@@ -1,0 +1,51 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  height: calc(100vh - 94px);
+
+  aside {
+    display: flex;
+    flex-direction: column;
+    background-color: #ecfaff;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    max-width: 673px;
+
+    h1 {
+      max-width: 622px;
+      margin-bottom: 130px;
+    }
+  }
+
+  .signInContainer {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    gap: 27px;
+    background-color: white;
+
+    a {
+      color: #43e8be;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+    }
+
+    button:last-child {
+      background: #8239F2;
+    }
+
+    button {
+      background: #43e8be;
+      color: white;
+      width: 430px;
+      max-height: 45px;
+      font-weight: 700;
+    }
+
+    
+  }
+}
