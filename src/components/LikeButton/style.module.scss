@@ -1,0 +1,19 @@
+.likeButton {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  background: none;
+  outline: none;
+  border: none;
+  margin-top: 8px;
+  cursor: pointer;
+
+  .liked {
+    color: #d11a1a;
+  }
+
+  .unliked {
+    color: black;
+  }
+}

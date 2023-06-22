@@ -4,7 +4,5 @@ import Button from "../components/Button";
 import SignIn from "./sign-in/page";
 
 export default function Home() {
-  const buttons = ["oi", "teste", "outro"];
-
   return <SignIn />;
 }
